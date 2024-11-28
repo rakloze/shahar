@@ -1,164 +1,139 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
+    <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!--=============== fonts ===============-->
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-    </style>
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+    <!-- Humanstxt.org -->
+    <!--=============== REMIXICONS ===============-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.2.0/remixicon.min.css">
     <!--=============== CSS ===============-->
-    <link rel="stylesheet" href="responsive-navbar-2-main/assets/css/styles.css">
+    <link rel="stylesheet" href="assets/css/styles.css">     
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Rubik+Doodle+Shadow&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./responsive-navbar-2-main/assets/css/styles.css">
     <link rel="stylesheet" href="background.css">
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="./acco/accoStyle.css">
-    <script src="./acco/acco.js"></script>
+    <link rel="stylesheet" href="about.css">
+   
     <script>
         document.getElementsByTagName("html")[0].className += "js";
     </script>
     <title>| שחר מעוז | מוזיקאי | מפתח |</title>
-</head>
-<canvas id="square-fx" aria-hidden="true" role="presentation" data-astro-cid-fe2qv6jf></canvas>
-
-<body class="blueprint">
+    </head>
+    <body class="blueprint">
+    <canvas id="square-fx" aria-hidden="true" role="presentation" data-astro-cid-fe2qv6jf></canvas>  
     <!--==================== HEADER ====================-->
-    <header style="font-family:Montserrat Alternates, sans-serif;" class="header" id="header">
+    <header class="header" id="header">
         <nav class="nav container">
-            <a icon="./logo.png" class="nav__logo"></a>
+           <a icon="./logo.png" class="nav__logo"></a>
 
-            <div class="nav__menu" id="nav-menu">
-                <ul class="nav__list">
-                    <li class="nav__item">
-                        <a href="index.html" class="nav__link">
-                            <i></i>
-                            <span>Home</span>
-                        </a>
-                    </li>
-
-                    <li class="nav__item">
-                        <a href="./about.html" class="nav__link">
-                            <i></i>
-                            <span>About Me</span>
-                        </a>
-                    </li>
-
-                    <li class="nav__item">
-                        <a href="./projects.html" class="nav__link">
-                            <i></i>
-                            <span>Projects</span>
-                        </a>
-                    </li>
-
-                    <li class="nav__item">
-                        <a href="./game/index.html" class="nav__link">
-                            <i></i>
-                            <span>Game</span>
-                        </a>
-                    </li>
-                </ul>
-
-                <!-- Close button -->
-                <div class="nav__close" id="nav-close">
-                    <i class="ri-close-large-line"></i>
-                </div>
-
-                <div class="nav__social">
-                    <a href="https://www.instagram.com/shahargtr/" target="_blank" class="nav__social-link">
-                        <i class="ri-instagram-line"></i>
+           <div class="nav__menu" id="nav-menu">
+              <ul class="nav__list">
+                 <li class="nav__item">
+                    <a href="index.html" class="nav__link">
+                       <i></i>
+                       <span>Home</span>
                     </a>
+                 </li>
 
-                    <a href="https://github.com/rakloze" target="_blank" class="nav__social-link">
-                        <i class="ri-github-line"></i>
+                 <li class="nav__item">
+                    <a href="./about.html" class="nav__link">
+                       <i></i>
+                       <span>About Me</span>
                     </a>
+                 </li>
 
-                    <a href="https://x.com/Shaharmh" target="_blank" class="nav__social-link">
-                        <i class="ri-twitter-x-line"></i>
+                 <li class="nav__item">
+                    <a href="./projects.html" class="nav__link">
+                       <i></i>
+                       <span>Projects</span>
                     </a>
+                  </li>
+                  <li class="nav__item">
+                     <a href="./game/index.html" class="nav__link">
+                       <i></i>
+                       <span>Game</span>
+                     </a>
+                  </li>
+               </ul>
 
-                    <a href="https://www.linkedin.com/in/shaharMaozH/" target="_blank" class="nav__social-link">
-                        <i class="ri-linkedin-box-line"></i>
-                    </a>
-                </div>
-            </div>
+              <!-- Close button -->
+              <div class="nav__close" id="nav-close">
+                 <i class="ri-close-large-line"></i>
+              </div>
 
-            <!-- Toggle button -->
-            <div class="nav__toggle" id="nav-toggle">
-                <i class="ri-menu-line"></i>
-            </div>
+              <div class="nav__social">
+                 <a href="https://www.instagram.com/shahargtr/" target="_blank" class="nav__social-link">
+                    <i class="ri-instagram-line"></i>
+                 </a>
+
+                 <a href="https://github.com/rakloze" target="_blank" class="nav__social-link">
+                    <i class="ri-github-line"></i>
+                 </a>
+
+                 <a href="https://x.com/Shaharmh" target="_blank" class="nav__social-link">
+                    <i class="ri-twitter-x-line"></i>
+                 </a>
+
+                 <a href="https://www.linkedin.com/in/shaharMaozH/" target="_blank" class="nav__social-link">
+                    <i class="ri-linkedin-box-line"></i>
+                 </a>
+              </div>
+           </div>
+
+           <!-- Toggle button -->
+           <div class="nav__toggle" id="nav-toggle">
+              <i class="ri-menu-line"></i>
+           </div>
         </nav>
-    </header>
-    <p data-astro-cid-5ql2mvdm></p><br><br><br>
-    <!--<main class="line-separator wrapper cover">-->
-        <main>
-            <div id="accordion" style="position: absolute;">
-                <section style="font-family: Montserrat Alternates, sans-serif;" id="accoItem1">
-                    <a href="#accoItem1" style="font-family: Montserrat Alternates, sans-serif;">Programming</a>
-                    <!-- portfoliio projects -->
-                    <p style="font-family: Montserrat Alternates, sans-serif;">
-                        <a href="https://job-interview-ai-shahar.web.app/home"
-                        style="font-family: Montserrat Alternates, sans-serif; background-color: white; color: purple; font-weight: 500;">Job Interview Ai Tool</a>
-                    </p>
-                    <p style="font-family: Montserrat Alternates, sans-serif;">
-                        <a href="https://theamazinglooper.web.app/home"
-                        style="font-family: Montserrat Alternates, sans-serif; background-color: white; color: purple; font-weight: 500;">The Amazing Loopy</a>
-                    </p>
-                    <p style="font-family: Montserrat Alternates, sans-serif;">Decible Meter
-                        <a href="https://decibel-meter-app.web.app/home"
-                        style="font-family: Montserrat Alternates, sans-serif; background-color: white; color: purple; font-weight: 500;">Decible Meter</a>
-                    </p>
-                    <p style="font-family: Montserrat Alternates, sans-serif;">
-                        <a href="https://tictactoe-dc5e1.web.app/"
-                        style="font-family: Montserrat Alternates, sans-serif; background-color: white; color: purple; font-weight: 500;">A fun Tic Tac Toe game</a>
-                    </p>
-                        <p style="font-family: Montserrat Alternates, sans-serif;">
-                            <a href="./game/index.html"
-                            style="font-family: Montserrat Alternates, sans-serif; background-color: white; color: purple; font-weight: 500;">Play "CompeGitor"</a>
-                        </p>
-                        to Play</a>
-                <!-- portfoliio projects -->
-                </p>
-            </section>
-            <section id="accoItem2">
-                <a href="#accoItem2" style="font-family: Montserrat Alternates, sans-serif;">To my SoundCloud page</a>
-                <p style="font-family: Montserrat Alternates, sans-serif;">Going Nowhere
-                    <iframe width="100%" height="120" scrolling="no" frameborder="no" allow="autoplay"
-                        src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/94105068&color=%23ff5500&auto_play=false&hide_related=true&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
-                </p>
-                <p style="font-family: Montserrat Alternates, sans-serif;">Leylotaim
-                    <iframe width="100%" height="120" scrolling="no" frameborder="no" allow="autoplay"
-                        src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/960694669&color=%23ff5500&auto_play=false&hide_related=true&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
-                </p>
-            </section>
-            <section id="accoItem3">
-                <a style="font-family: Montserrat Alternates, sans-serif;" href="#accoItem3">My art style</a>
-                <div style="display: flex; gap: 6em; align-items: center;">
-                    <p> <img src="./assets/images/project1.png" alt="project1" style="width: 10rem; height: 10rem;"
-                            onclick="openLightbox(this.src)"></p>
-                    <p> <img src="./assets/images/project2.png" style="width: 10rem; height: 10rem;" alt="project2"
-                            onclick="openLightbox(this.src)"></p>
-                    <p> <img src="./assets/images/project3.png" alt="project3" style="width: 10rem; height: 10rem;"
-                            onclick="openLightbox(this.src)"></p>
-                </div>
-            </section>
-        </div>
+     </header>
+     <p data-astro-cid-5ql2mvdm></p><br><br>
+     <canvas id="square-fx" aria-hidden="true" role="presentation" data-astro-cid-fe2qv6jf></canvas>  
+     <main class="line-separator wrapper cover">
+        <h1 style="font-family:Montserrat Alternates, sans-serif;";
+ class="text-step-2 reveal-fx reveal-fx--text-mask reveal-fx--clip-y">Shahar Maoz</h1><h2 style="font-family:Montserrat Alternates, sans-serif;";
+ class="text-step-2 reveal-fx reveal-fx--text-mask reveal-fx--clip-y"> is a multi-talented professional with a diverse skill set spanning technology, education, music, and creative arts. His passion for innovation and commitment to excellence drive his work across these dynamic fields.</h2>
 
-        <!-- Lightbox Modal -->
-        <div id="lightboxModal" class="lightbox-modal">
-            <span class="lightbox-close" onclick="closeLightbox()">&times;</span>
-
-            <img class="lightbox-content" id="lightboxImg">
-        </div>
-
-    </main>
-</body>
-<script src="script.js"></script>
-<script src="./responsive-navbar-2-main/assets/js/main.js"></script>
-<script type="module" src="script.js"></script>
-<script type="module" src="./acco/acco.js"></script>
-
+        <h1 style="font-family:Montserrat Alternates, sans-serif;";
+ class="text-step-2 reveal-fx reveal-fx--text-mask reveal-fx--clip-y">Full Stack Developer</h1>
+        <h2 style="font-family:Montserrat Alternates, sans-serif;";
+ class="text-step-2 reveal-fx reveal-fx--text-mask reveal-fx--clip-y">Shahar specializes in building custom websites and dynamic applications that combine intuitive user experiences with robust back-end solutions. His ability to translate complex ideas into functional, user-friendly digital products has made him a sought-after developer. Open to new collaborations, he is eager to help clients bring their digital visions to life.</h2>
+         
+        <h1 style="font-family:Montserrat Alternates, sans-serif;";
+ class="text-step-2 reveal-fx reveal-fx--text-mask reveal-fx--clip-y">Educator</h1>
+        <h2 style="font-family:Montserrat Alternates, sans-serif;";
+ class="text-step-2 reveal-fx reveal-fx--text-mask reveal-fx--clip-y">A dedicated teacher with years of experience, Shahar connects effortlessly with learners of all ages and abilities. His inclusive approach is particularly impactful in special needs education, where he fosters confidence and growth in his students. Whether in a traditional classroom or a specialized setting, Shahar’s tailored teaching style ensures every learner thrives.</h2>
+        
+        <h1 style="font-family:Montserrat Alternates, sans-serif;";
+ class="text-step-2 reveal-fx reveal-fx--text-mask reveal-fx--clip-y">Musician</h1>
+        <h2 style="font-family:Montserrat Alternates, sans-serif;";
+ class="text-step-2 reveal-fx reveal-fx--text-mask reveal-fx--clip-y">As a seasoned guitarist and a versetile music teacher, Shahar’s musical journey reflects his creativity and passion for inclusion. He is especially dedicated to making music accessible, evident in his work with special needs communities. His innovative project, the Fretboard Game <a href="./projects.html"> fi,  exemplifies his commitment to reimagining music education through engaging tools.</h2>
+        
+        <h1 style="font-family:Montserrat Alternates, sans-serif;";
+ class="text-step-2 reveal-fx reveal-fx--text-mask reveal-fx--clip-y">Graphic Designer and Video Editor</h1>
+        <h2 style="font-family:Montserrat Alternates, sans-serif;";
+ class="text-step-2 reveal-fx reveal-fx--text-mask reveal-fx--clip-y">In the fields of graphic design and video editing, Shahar creates visually compelling content and engaging videos. His attention to detail and commitment to quality ensure that each project effectively communicates the client's message and achieves their goals.</h2>
+        
+        <h1 style="font-family:Montserrat Alternates, sans-serif;";
+ class="text-step-2 reveal-fx reveal-fx--text-mask reveal-fx--clip-y">Personal Interests</h1>
+        <h2 style="font-family:Montserrat Alternates, sans-serif;";
+ class="text-step-2 reveal-fx reveal-fx--text-mask reveal-fx--clip-y">Beyond his professional endeavors, Shahar has a knack for creating memes, combining humor and creativity. This hobby adds a unique dimension to his skill set, showcasing his ability to blend professionalism with a touch of fun.</h2>
+        
+        <h1 style="font-family:Montserrat Alternates, sans-serif;";
+ class="text-step-2 reveal-fx reveal-fx--text-mask reveal-fx--clip-y">Shahar Maoz</h1> <h2 style="font-family:Montserrat Alternates, sans-serif;";
+ class="text-step-2 reveal-fx reveal-fx--text-mask reveal-fx--clip-y">is dedicated to providing high-quality, professional services across all his areas of expertise. Whether clients require music instruction, web development, graphic design, or video editing, he is equipped to meet their needs with precision and excellence.</h2>
+        
+        <h2 style="font-family:Montserrat Alternates, sans-serif;";
+ class="text-step-2 reveal-fx reveal-fx--text-mask reveal-fx--clip-y">For further inquiries or to discuss potential projects, please feel free to get in touch with Shahar Maoz</h2>
+    
+    </body>
+    <script src="script.js"></script>
+    <script src="./responsive-navbar-2-main/assets/js/main.js"></script>
+    <script type="module" src="script.js"></script>
 </html>
