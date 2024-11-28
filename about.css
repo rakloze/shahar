@@ -27,3 +27,9 @@
     font-weight: 300;
     margin: 10px 0 30px 0;
 }
+a {
+    font-family: Montserrat Alternates, sans-serif; 
+    background-color: white; 
+    color: purple; 
+    font-weight: 500;
+}
