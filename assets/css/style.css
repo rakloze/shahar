@@ -1,0 +1,90 @@
+
+html {
+  -moz-text-size-adjust: none;
+    -webkit-text-size-adjust: none;
+    text-size-adjust: none;
+  }
+  
+  body, h1, h2, h3, h4, h6, p, figure, blockquote, dl, dd {
+    margin-block-end: 0;
+    font-family: "Rubic Doodle Shadow";
+}
+
+ul[role=list], ol[role=list] {
+    list-style: none;
+}
+
+header h6 {
+    font-family: "Rubik Doodle Shadow", system-ui;
+    font-style: normal;
+    text-align: left;
+    margin-block-start:inherit;
+    font-size: 2.7em;
+    font-weight: 50;
+    
+}
+ h6 {
+    font-family: "Rubik Doodle Shadow", system-ui;
+    font-weight: 50;
+    font-style: normal;
+    text-align: left;
+    margin-block-start:inherit;
+    width: 100%;
+    margin-right: 50%;
+    
+}
+ h3 {
+    font-family: "Rubik Doodle Shadow", system-ui;
+    font-weight: 300;
+    text-align: right;
+    width: 100%;
+    line-height: 0.7;
+    padding-left: 48%;
+    padding-bottom: 2em;
+  }
+  
+  h2 {
+    font-family: "Montserrat Alternates", system;
+    margin: 10%;
+}
+h1 {
+  font-family: "Montserrat Alternates", sans-serif;;
+}
+
+h1, h2, h4, button, input, label {
+  line-height: 1;
+}
+
+
+a:not([class]) {
+  -webkit-text-decoration-skip: ink;
+  text-decoration-skip-ink: auto;
+  color: currentColor;
+}
+
+img, picture {
+    max-width: 100%;
+    display: block;
+}
+
+input, button, textarea, select {
+    font: inherit;
+  }
+
+textarea:not([rows]) {
+    min-height: 5em;
+  }
+  
+  :target {
+    scroll-margin-block: 5em;
+  }
+  
+  .prose {
+    --flow-space: var(--space-m);
+  }
+  body {
+      background: var(--color-primary);
+      color: var(--color-light);
+      font-size: var(--size-step-0);
+      font-family: var(--font-base);
+  }

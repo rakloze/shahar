@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    background: url("../../assets/images/projectsbg.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    overflow-x: hidden;
+}
+
+
+main {
+    display: flex;
+    justify-content: center;
+}
+

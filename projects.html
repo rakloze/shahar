@@ -14,20 +14,24 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Rubik+Doodle+Shadow&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="background.css">
-    <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="./acco/accoStyle.css">
+    <!-- <link rel="stylesheet" href="./assets/css/style.css"> -->
+    <link rel="stylesheet" href="./assets/css/background.css">
+    <link rel="stylesheet" href="./assets/css/projects.css">
     <script src="./acco/acco.js"></script>
+    <script src="./assets/js/script.js"></script>
+    <script src="./responsive-navbar-2-main/assets/js/main.js"></script>
+
     <script>
         document.getElementsByTagName("html")[0].className += "js";
     </script>
     <title>| שחר מעוז | מוזיקאי | מפתח |</title>
 </head>
-<canvas id="square-fx" aria-hidden="true" role="presentation" data-astro-cid-fe2qv6jf></canvas>
 
 <body class="blueprint">
+    <canvas id="square-fx" aria-hidden="true" role="presentation" data-astro-cid-fe2qv6jf></canvas>
     <!--==================== HEADER ====================-->
-    <header style="font-family:Montserrat Alternates, sans-serif;" class="header" id="header">
+    <header class="header" id="header">
         <nav class="nav container">
             <a icon="./logo.png" class="nav__logo"></a>
 
@@ -92,49 +96,52 @@
             </div>
         </nav>
     </header>
-    <p data-astro-cid-5ql2mvdm></p><br><br><br>
-    <!--<main class="line-separator wrapper cover">-->
-    <main>
-        <div id="accordion" style="position: absolute;">
-            <section style="font-family: Montserrat Alternates, sans-serif;" id="accoItem1">
-                <a href="#accoItem1" style="font-family: Montserrat Alternates, sans-serif;">Programming</a>
+    <br><br>
+    <!--==================== MAIN ====================-->
+    <main class="line-separator wrapper cover">
+        <div id="accordion" style="position:static;">
+            <section id="accoItem1">
+                <h1><a href="#accoItem1">Programming</a></h1>
                 <!-- portfoliio projects -->
-                <p style="font-family: Montserrat Alternates, sans-serif;">
+                <p>
+                    <a href="https://shaharfullstack.github.io/cryptoProject/">Crypto Project</a>
+                </p>
+                <p>
                     <a href="https://job-interview-ai-shahar.web.app/home">Job
                         Interview Ai Tool</a>
                 </p>
-                <p style="font-family: Montserrat Alternates, sans-serif;">
+                <p>
                     <a href="https://theamazinglooper.web.app/home">The
                         Amazing Loopy</a>
                 </p>
-                <p style="font-family: Montserrat Alternates, sans-serif;">Decible Meter
+                <p>
+                    <a href="./game/index.html">Play
+                        "CompeGitor"</a>
+                </p>
+                <p>
                     <a href="https://decibel-meter-app.web.app/home">Decible
                         Meter</a>
                 </p>
-                <p style="font-family: Montserrat Alternates, sans-serif;">
+                <p>
                     <a href="https://tictactoe-dc5e1.web.app/">A
                         fun Tic Tac Toe game</a>
-                </p>
-                <p style="font-family: Montserrat Alternates, sans-serif;">
-                    <a href="./game/index.html">Play
-                        "CompeGitor"</a>
                 </p>
             </section>
             <!-- My Music -->
             <section id="accoItem2">
-                <a href="#accoItem2" style="font-family: Montserrat Alternates, sans-serif;">To my SoundCloud page</a>
-                <p style="font-family: Montserrat Alternates, sans-serif;">Going Nowhere
-                    <iframe width="100%" height="120" scrolling="no" frameborder="no" allow="autoplay"
+                <h1><a href="#accoItem2">To my SoundCloud page</a></h1>
+                <p>Going Nowhere
+                    <iframe
                         src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/94105068&color=%23ff5500&auto_play=false&hide_related=true&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
                 </p>
-                <p style="font-family: Montserrat Alternates, sans-serif;">Leylotaim
-                    <iframe width="100%" height="120" scrolling="no" frameborder="no" allow="autoplay"
+                <p>Leylotaim
+                    <iframe
                         src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/960694669&color=%23ff5500&auto_play=false&hide_related=true&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
                 </p>
             </section>
             <!-- My Visual Art -->
             <section id="accoItem3">
-                <a style="font-family: Montserrat Alternates, sans-serif;" href="#accoItem3">My art style</a>
+                <h1><a href="#accoItem3">My art style</a></h1>
                 <div style="display: flex; gap: 6em; align-items: center;">
                     <p> <img src="./assets/images/project1.png" alt="project1" style="width: 10rem; height: 10rem;"
                             onclick="openLightbox(this.src)"></p>
@@ -144,8 +151,8 @@
                             onclick="openLightbox(this.src)"></p>
                 </div>
             </section>
-        </div>
 
+        </div>
         <!-- Lightbox Modal -->
         <div id="lightboxModal" class="lightbox-modal">
             <span class="lightbox-close" onclick="closeLightbox()">&times;</span>
@@ -154,10 +161,8 @@
         </div>
 
     </main>
+    <script type="module" src="./assets/js/script.js"></script>
+    <script type="module" src="./acco/acco.js"></script>
 </body>
-<script src="script.js"></script>
-<script src="./responsive-navbar-2-main/assets/js/main.js"></script>
-<script type="module" src="script.js"></script>
-<script type="module" src="./acco/acco.js"></script>
 
 </html>

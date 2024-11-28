@@ -1,75 +1,72 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:ital,wght@1,300&display=swap");
-.accordion *{
-    font-family:"Montserrat Alternates, sans-serif";
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    }
-    body {
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.6)), url("../assets/images/projectsbg.png") center;
-    background-size: 90% center no-repeat;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-family: "Montserrat Alternates, sans-serif"
-    }
-    .center {
-    width: auto;
-    margin: auto;
-    }
-    section a {
-    color: #000; opacity: 100%;
-    text-decoration: none;
-    text-align: center;
-    padding: 10px;
-    display: block;
-    font-size: 1.3em;
-    letter-spacing: 3px;
-    overflow: hidden;
-    border-bottom: 1.5px solid #fdfbf9;
-    font-family:"Montserrat Alternates, sans-serif";
-    }
-    section p {
-    padding: 10px;
-    font-family:"Montserrat Alternates, sans-serif";
-    overflow: hidden;
-    height: 0;
-    opacity: 0;
-    background: transparent;
-    color: #fff;
-    overflow: hidden;
-    letter-spacing: 2px;
-    transition: 2s;
-    }
-    section:target p {
-    font-family:"Montserrat Alternates, sans-serif";
-    height: 10em;
-    opacity: 1;
-    padding: 20px;
-    background: transparent;
-    };
-  
-  div.gallery {
-      margin: 5px;
-      border: 1px solid #ccc;
-      float: left;
-      width: 180px;
-    }
-    
-    div.gallery:hover {
-      border: 1px solid #777;
-    }
-    
-    div.gallery img {
-      width: 100%;
-      height: auto;
-    }
-    
-    div.desc {
-      padding: 15px;
-      text-align: center;
-    }
+
+.accordion * {
+  font-family: "Montserrat Alternates, sans-serif";
+  box-sizing: border-box;
+}
+
+
+
+section a {
+  color: #fdfdff;
+  opacity: 100%;
+  text-decoration: none;
+  text-align: center;
+  padding: 90px;
+  display: block;
+  font-size: 1.5em;
+  letter-spacing: 10px;
+  overflow: hidden;
+  border-bottom: 2px dashed #c4e2ffc0;
+  font-family: "Montserrat Alternates, sans-serif";
+}
+
+section p {
+  font-family: "Montserrat Alternates, sans-serif";
+  overflow: hidden;
+  height: 0;
+  opacity: 0;
+  overflow: hidden;
+  transition: 2s;
+}
+section p:hover {
+  scale: 1.15;
+}
+iframe {
+  width: 100%;
+  border: none;
+}
+
+section:target p {
+  font-family: "Montserrat Alternates, sans-serif";
+  height: 17em;
+  opacity: 1;
+  background: transparent;
+}
+
+;
+
+div.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 180px;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
 /* Lightbox Modal (background) */
 .lightbox-modal {
   display: none;
@@ -85,9 +82,9 @@
 
 /* Lightbox Content (image) */
 .lightbox-content {
-  margin: auto;
+  margin: 50px auto;
   display: block;
-  max-width: 720px;
+  max-width: 620px;
 
 }
 
@@ -95,12 +92,14 @@
 .lightbox-close {
   position: absolute;
   top: 50%;
-  right: 7em;
+  right: 9em;
+  transform: translate(-50%, -50%);
   color: #f1f1f1;
   font-size: 40px;
   font-weight: bold;
   transition: 0.3s;
-  
+  border-radius: 30%;
+  background-color: #d30000;
 }
 
 .lightbox-close:hover,
